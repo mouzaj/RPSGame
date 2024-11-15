@@ -66,7 +66,7 @@
             }
             else if (userChoice === "Scissors" && computerChoice === "Rock")
             {
-                theResult = "Youlose.";
+                theResult = "You lose.";
             }
             else if (userChoice === "Scissors" && computerChoice === "Paper")
             {
@@ -138,8 +138,8 @@
             // populating the text inside the p elements 
             theResultDisplay.innerHTML = result;
             theMoveDisplay.innerHTML = ` You 
-        <img src=".images/${userStep}Final.png" class="moveIcon">
-        <img src=".images/${compuerStep}Final.png" class="moveIcon">
+        <img src="images/${userStep}Final.png" class="moveIcon">
+        <img src="images/${compuerStep}Final.png" class="moveIcon">
         Computer`;
             theScoreDisplay.innerHTML = `Wins ${score.wins} - losses ${score.losses} - Ties ${score.ties}`;
     }
